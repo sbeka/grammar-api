@@ -5,7 +5,7 @@ const http = require('http');
 const cors = require('cors');
 
 const port = 3000;
-const mongoUri = 'mongodb://localhost:27017/kazakh-grammar';
+const mongoUri = 'mongodb+srv://narimanovadian:Dayana3648@cluster0.as5jhvq.mongodb.net/kazakh-grammar?retryWrites=true&w=majority';
 
 app.use(cors());
 app.use(express.json({ extended: true }));
